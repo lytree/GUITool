@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtx4yya5f1fbs"]
+
+[ext_resource type="Script" uid="uid://bk64ij1aha2r5" path="res://Components/MenuBar/MenuBar.cs" id="1_kaogu"]
+[ext_resource type="Script" uid="uid://c41ty0kpdprqi" path="res://Components/FlatTextureButton/FlatTextureButton.cs" id="2_ikups"]
+[ext_resource type="Texture2D" uid="uid://r233fnxk5qkf" path="res://Assets/Icons/menu.png" id="3"]
+
+[node name="MenuBar" type="Panel"]
+custom_minimum_size = Vector2(0, 38)
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 38.0
+grow_horizontal = 2
+script = ExtResource("1_kaogu")
+
+[node name="Left" type="HBoxContainer" parent="."]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 4
+
+[node name="VSeparator" type="VSeparator" parent="Left"]
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme_override_constants/separation = 12
+
+[node name="MenuButton" type="TextureButton" parent="Left"]
+modulate = Color(0.776471, 0.776471, 0.776471, 1)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+texture_normal = ExtResource("3")
+stretch_mode = 3
+script = ExtResource("2_ikups")
+HoverTint = Color(0.34901962, 1, 0.84705883, 1)
+
+[node name="VSeparator2" type="VSeparator" parent="Left"]
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme_override_constants/separation = 12
+
+[node name="TabBar" type="TabBar" parent="Left"]
+layout_mode = 2

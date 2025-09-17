@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfxpx8lmi63l"]
+
+[ext_resource type="Theme" uid="uid://u5qnpgxqykiv" path="res://Theme/theme_dark.tres" id="1_2uf7l"]
+[ext_resource type="Script" uid="uid://cgf4lo1rhshk7" path="res://Components/MainMenu/MainMenu.cs" id="1_hpsj8"]
+
+[node name="MainMenu" type="PopupMenu"]
+oversampling_override = 1.0
+visible = true
+theme = ExtResource("1_2uf7l")
+submenu_popup_delay = 0.01
+script = ExtResource("1_hpsj8")

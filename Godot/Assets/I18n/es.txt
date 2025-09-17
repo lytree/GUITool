@@ -1,0 +1,123 @@
+LANGUAGE_NAME Español
+
+# -----------------------------------------------------------------------------
+# Menu strings
+# -----------------------------------------------------------------------------
+
+MENU_OPEN           Abrir...
+MENU_SAVE           Guardar
+MENU_SAVE_AS        Guardar como...
+MENU_SETTINGS       Configuración
+MENU_MANUAL         Manual
+MENU_BUG_TRACKER    Reportar un error
+MENU_ABOUT          Acerca de Lorien
+MENU_EXPORT         Exportar...
+MENU_QUIT           Cerrar
+
+# -----------------------------------------------------------------------------
+# Toolbar
+# -----------------------------------------------------------------------------
+TOOLBAR_TOOLTIP_NEW_FILE        Crear Nuevo Archivo
+TOOLBAR_TOOLTIP_OPEN_FILE       Abrir Archivo
+TOOLBAR_TOOLTIP_SAVE_FILE       Guardar Archivo
+TOOLBAR_TOOLTIP_UNDO            Deshacer Acción
+TOOLBAR_TOOLTIP_REDO            Rehacer Acción
+TOOLBAR_TOOLTIP_BRUSH_TOOL      Herramienta de Pincel
+TOOLBAR_TOOLTIP_RECTANGLE_TOOL  Rectángulo
+TOOLBAR_TOOLTIP_LINE_TOOL       Herramienta de Línea
+TOOLBAR_TOOLTIP_ERASER_TOOL     Borrador
+TOOLBAR_TOOLTIP_SELECT_TOOL     Herramienta de Selección
+TOOLBAR_TOOLTIP_BRUSH_COLOR     Color de Pincel
+TOOLBAR_TOOLTIP_BRUSH_SIZE      Tamaño de Pincel
+TOOLBAR_TOOLTIP_CANVAS_COLOR    Color de Canvas
+
+# -----------------------------------------------------------------------------
+# Color Palette Picker
+# -----------------------------------------------------------------------------
+COLOR_PALETTE_PICKER_HINT_NEW        Crear una nueva paleta de colores
+COLOR_PALETTE_PICKER_HINT_EDIT       Editar la paleta de colores
+COLOR_PALETTE_PICKER_HINT_DUPLICATE  Duplicar la paleta de colores
+COLOR_PALETTE_PICKER_HINT_DELETE     Borrar permanentemente la paleta de colores
+
+# -----------------------------------------------------------------------------
+# Statusbar strings
+# -----------------------------------------------------------------------------
+
+STATUSBAR_POSITION              Posición
+STATUSBAR_ZOOM                  Zoom
+STATUSBAR_PRESSURE              Presión
+STATUSBAR_FPS                   FPS
+STATUSBAR_STROKES               Curvas
+STATUSBAR_POINTS                Puntos
+
+# -----------------------------------------------------------------------------
+# Settings strings
+# -----------------------------------------------------------------------------
+
+SETTINGS_TITLE                  Configuración
+SETTINGS_GENERAL                General
+SETTINGS_APPEARANCE             Apariencia
+SETTINGS_RENDERING              Renderizado
+SETTINGS_PRESSURE_SENSITIVITY   Sensibilidad de Presión
+SETTINGS_BRUSH_SIZE             Tamaño de Pincel Predeterminado
+SETTINGS_CANVAS_COLOR           Color de Canvas
+SETTINGS_PROJECT_FOLDER         Carpeta de Proyectos Predeterminada
+SETTINGS_LANGUAGE               Idioma
+SETTINGS_TABLET_DRIVER          Tablet Driver
+SETTINGS_THEME                  Tema
+SETTINGS_FPS_FOREGROUND         Color de texto de FPS
+SETTINGS_FPS_BACKGROUND         Color de fondo de FPS
+SETTINGS_BRUSH_CAPS             Modo de Redondeado de Pincel
+SETTINGS_BRUSH_CAPS_FLAT        Plano
+SETTINGS_BRUSH_CAPS_ROUND       Redondo
+SETTINGS_RESTART_NOTICE         Se requiere reiniciar para aplicar las nuevas opciones
+
+# -----------------------------------------------------------------------------
+# About dialog strings
+# -----------------------------------------------------------------------------
+
+ABOUT_DIALOG_TITLE      Acerca de Lorien
+ABOUT_DIALOG_COPYRIGHT  © 2021-2024 Marcus Brummer & colaboradores 
+ABOUT_DIALOG_LICSENSE   Lorien está licenciado bajo:
+ABOUT_DIALOG_BASED_ON   Lorien está basado en:
+ABOUT_DIALOG_EASTEREGG  Personaje secreto: 
+
+# -----------------------------------------------------------------------------
+# Unsaved changes dialog
+# -----------------------------------------------------------------------------
+
+UNSAVED_CHANGES_DIALOG_TITLE    Warning # TODO
+UNSAVED_CHANGES_DIALOG_TEXT     ¿Guardar tus cambios antes de cerrar el archivo?
+
+# -----------------------------------------------------------------------------
+# New palette dialog
+# -----------------------------------------------------------------------------
+NEW_PALETTE_DIALOG_CREATE_TITLE    Nueva Paleta
+NEW_PALETTE_DIALOG_DUPLICATE_TITLE Duplicar Paleta
+NEW_PALETTE_DIALOG_PLACEHOLDER     Nombre de Paleta
+
+# -----------------------------------------------------------------------------
+# Delete palette dialog
+# -----------------------------------------------------------------------------
+DELETE_PALETTE_DIALOG_TITLE     Borrar Paleta
+DELETE_PALETTE_DIALOG_TEXT      ¿Seguro que desea borrar esta paleta permanentemente?:    
+
+# -----------------------------------------------------------------------------
+# Edit palette dialog
+# -----------------------------------------------------------------------------
+EDIT_PALETTE_DIALOG_TITLE       Editar paleta
+
+# -----------------------------------------------------------------------------
+# Error/Alert messages
+# -----------------------------------------------------------------------------
+ALERT_EDITING_BUILTIN_PALETTE   No se pueden editar las paletas del sistema. Si deseas personalizarla, puedes duplicarla y editarla en su lugar.
+ALERT_DELETING_BUILTIN_PALETTE  No se pueden borrar las paletas del sistema.
+
+# -----------------------------------------------------------------------------
+# Generic strings
+# -----------------------------------------------------------------------------
+
+SAVE            Guardar
+DISCARD         Descartar
+CANCEL          Cancelar
+DELETE          Borrar
