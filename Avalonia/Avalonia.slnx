@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/app/App.Api/App.Api.csproj" />
+  <Project Path="src/app/App.Core/App.Core.csproj" />
+  <Project Path="src/app/App.Localization/App.Localization.csproj" Id="3aa6217a-57e6-4708-a04a-99feabe23999" />
+  <Project Path="src/app/App/App.csproj" />
+</Solution>
