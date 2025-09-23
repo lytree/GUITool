@@ -1,4 +1,3 @@
-using System.Linq;
 using App.ViewModels;
 using App.Views;
 using Avalonia;
@@ -11,6 +10,19 @@ namespace App
 {
     public partial class App : Application
     {
+
+
+
+        public static readonly string AppRootFolderPath = AppDomain.CurrentDomain.BaseDirectory;
+
+        public static readonly string AppLogFolderPath = Path.Combine(AppRootFolderPath, "Logs");
+
+        public static readonly string AppDataFolderPath = Path.Combine(AppRootFolderPath, "Data");
+
+        public static readonly string AppConfigPath = Path.Combine(AppRootFolderPath, "Config");
+
+        public static readonly string AppCacheFolderPath = Path.Combine(AppRootFolderPath, "Cache");
+
         public override void Initialize()
         {
             AvaloniaXamlLoader.Load(this);
@@ -23,9 +35,16 @@ namespace App
                 // Avoid duplicate validations from both Avalonia and the CommunityToolkit. 
                 // More info: https://docs.avaloniaui.net/docs/guides/development-guides/data-validation#manage-validationplugins
                 DisableAvaloniaDataAnnotationValidation();
-                desktop.MainWindow = new MainWindow
+                desktop.MainWindow = new MvvmSplashWindow
                 {
-                    DataContext = new MainWindowViewModel(),
+                    DataContext = new SplashViewModel(),
+                };
+            }
+            else if (ApplicationLifetime is ISingleViewApplicationLifetime singleView)
+            {
+                singleView.MainView = new SingleView()
+                {
+                    DataContext = new MainViewViewModel(),
                 };
             }
 

@@ -2,6 +2,6 @@
 {
     public partial class MainWindowViewModel : ViewModelBase
     {
-        public string Greeting { get; } = "Welcome to Avalonia!";
+        public MainViewViewModel MainViewViewModel { get; set; } = new MainViewViewModel();
     }
 }

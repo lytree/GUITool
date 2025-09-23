@@ -1,9 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFrameworks>$(NetCore)</TargetFrameworks>
   </PropertyGroup>
   <ItemGroup>
     <CompilerVisibleProperty Include="MSBuildProjectFullPath" />
@@ -17,5 +15,11 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
     <PackageReference Include="System.Text.Json" />
     <PackageReference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App.Api\App.Api.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="String\MainWindow\" />
   </ItemGroup>
 </Project>
