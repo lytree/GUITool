@@ -7,7 +7,6 @@
 			 RequestedThemeVariant="Default">
 			 <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 	<Application.Styles>
-		<FluentTheme />
 		<!--This style is created to demonstrate Dialog StyleClass feature. This style is applied to Dialog Window-->
 		<Style Selector="u|DefaultDialogWindow.Custom">
 			<Style Selector="^ /template/ Button#PART_OKButton">

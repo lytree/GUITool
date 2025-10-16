@@ -6,7 +6,13 @@
     <Project Path="src/app/App.Localization/App.Localization.csproj" Id="3aa6217a-57e6-4708-a04a-99feabe23999" />
     <Project Path="src/app/App/App.csproj" />
   </Folder>
+  <Folder Name="/document/">
+    <File Path="src/Directory.Build.props" />
+    <File Path="src/Directory.Build.targets" />
+    <File Path="src/Directory.Packages.props" />
+  </Folder>
   <Folder Name="/generators/">
     <Project Path="src/generators/ResxHelperGenerator/ResxHelperGenerator.csproj" />
   </Folder>
+  <Folder Name="/NewFolder1/" />
 </Solution>

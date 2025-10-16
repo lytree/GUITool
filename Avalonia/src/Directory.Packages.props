@@ -3,7 +3,7 @@
     <CommunityToolkitVersion>8.4.0</CommunityToolkitVersion>
     <DotNetVersion>8.0.0</DotNetVersion>
     <XUnit>2.9.3</XUnit>
-    <Avalonia>11.3.6</Avalonia>
+    <Avalonia>11.3.7</Avalonia>
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="CommunityToolkit.Common" Version="$(CommunityToolkitVersion)" />
